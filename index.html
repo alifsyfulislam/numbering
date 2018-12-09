@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Numbers</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div>
+    <h3 class="">Click To Get Random Number: </h3>
+    <div>
+        <input type="button" name="btn" class="btn-style" id="btn1" value="Click Me For Random Input" onclick="takeRandomInput()">
+    </div>
+    <br/>
+    <div class="main-body">
+        <table border="1">
+            <tr>
+                <td style="width: 250px">
+                    <label>First Number: </label>
+                </td>
+                <td>
+                    <input type="number" name="number1" id="One">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Second Number: </label>
+                </td>
+                <td>
+                    <input type="number" name="number2" id="Two">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Third Number: </label>
+                </td>
+                <td>
+                    <input type="number" name="number3" id="Three">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Fourth Number: </label>
+                </td>
+                <td>
+                    <input type="number" name="number4" id="Four">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Fifth Number: </label>
+                </td>
+                <td>
+                    <input type="number" name="number5" id="Five">
+                </td>
+            </tr>
+
+            <tr id="hide1">
+                <td>
+                    <label>Sixth Number: </label>
+                </td>
+                <td>
+                    <input type="number" name="number6" id="Six">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <br/>
+
+    <input type="button" name="btn2" class="btn-style" id="btn2" value="Click Me For Ascending List" onclick="ascendingList()">
+
+    <br/>
+    <br/>
+    <!--<br/>-->
+
+    <div class="ascending-box">
+        <label>Ascending Order: </label><input type="text" id="demo" name="ascending_input">
+    </div>
+
+    <br/>
+
+    <input type="button" name="btn2" class="btn-style" id="btn3" value="Click Me For Maximum Number" onclick="maximumNumber()">
+
+    <br/>
+    <br/>
+    <!--<br/>-->
+
+    <div class="ascending-box">
+        <label>Maximum Number: </label><input type="text" id="demo2" name="max_input">
+    </div>
+
+    <br/>
+
+    <input type="button" name="btn2" class="btn-style" id="btn4" value="Click Me For Minimum Number" onclick="minimumNumber()">
+
+    <br/>
+    <br/>
+    <!--<br/>-->
+
+    <div class="ascending-box">
+        <label>Minimum Number: </label><input type="text" id="demo3" name="min_input">
+    </div>
+</div>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
